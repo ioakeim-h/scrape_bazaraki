@@ -1,3 +1,5 @@
 This Python-based project automates the collection and standardization of automotive data from Autokinito and Bazaraki. It utilizes Playwright to bypass Cloudflare protections on classified listings and BeautifulSoup for dealership scraping. The core logic involves a rigorous cleaning suite that removes Greek advertisements, strips technical metadata (engine size/year), and uses rapidfuzz to identify and merge near-duplicate models based on a 95% similarity threshold.
 
 The final output is a consolidated Excel Master List mapped to official OEM naming conventions. By normalizing brand names (e.g., "MERCEDES" to "Mercedes-Benz") and model formats (standardizing EV/PHEV suffixes), it ensures data consistency across disparate sources. The tool is designed for high accuracy, maintaining a "Source URL" for traceability while integrating seamlessly with existing regional datasets.
+
+Developed within a single day, this project was built to rapidly scale a manual dataset into a comprehensive market overview to meet a critical deadline.
